@@ -39,7 +39,9 @@ class InstagramBot:
             bot.find_element_by_class_name('coreSpriteRightPaginationArrow').click()
             i+=1
 
-insta = InstagramBot('itsmarchinton', 'FiShFoOd1')
+hashtag = input("Search term: ")
+amount = int(input("number of likes:"))
+insta = InstagramBot('shreyasvankay@gmail.com', 'Shreyas@2001')
 insta.login()
-insta.search('soccer')
-insta.likePhotos(4)
+insta.search(hashtag)
+insta.likePhotos(amount)
