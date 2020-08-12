@@ -41,7 +41,7 @@ class InstagramBot:
 
 hashtag = input("Search term: ")
 amount = int(input("number of likes:"))
-insta = InstagramBot('shreyasvankay@gmail.com', 'Shreyas@2001')
+insta = InstagramBot('username', 'password')
 insta.login()
 insta.search(hashtag)
 insta.likePhotos(amount)
